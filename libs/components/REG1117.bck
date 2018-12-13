@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP REG1117-3.3
+D 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.ti.com/lit/ds/symlink/reg1117.pdf
+$ENDCMP
+#
+$CMP REG1117A-1.8
+D 1A Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT223
+K REGULATOR LDO 1.8V
+F http://www.ti.com/lit/ds/symlink/reg1117.pdf
+$ENDCMP
+#
+#End Doc Library
