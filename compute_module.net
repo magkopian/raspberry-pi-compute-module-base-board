@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/manolis/kicad/compute_module/compute_module.sch)
-    (date "Sun 16 Dec 2018 09:56:46 PM EET")
+    (date "Sun 16 Dec 2018 11:09:59 PM EET")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -224,7 +224,7 @@
       (tstamp 5C12CE0A))
     (comp (ref J1)
       (value 2001-1-2-21-00-BK)
-      (footprint digikey-footprints:HDMI_Female_DC3RX19JA3R1700)
+      (footprint HDMI_MOLEX:HDMI_MOLEX_471510001)
       (datasheet http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf)
       (fields
         (field (name Digi-Key_PN) 1175-1704-1-ND)
@@ -762,10 +762,10 @@
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical REG1117)
-      (uri /home/manolis/kicad/compute_module/libs/components/REG1117.lib))
     (library (logical KiCADinfo_RPi-modules)
       (uri /home/manolis/kicad/compute_module/libs/components/KiCADinfo_RPi-modules.lib))
+    (library (logical REG1117)
+      (uri /home/manolis/kicad/compute_module/libs/components/REG1117.lib))
     (library (logical dk_USB-DVI-HDMI-Connectors)
       (uri /home/manolis/kicad/compute_module/libs/components/dk_USB-DVI-HDMI-Connectors.lib)))
   (nets
