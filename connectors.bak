@@ -69,9 +69,9 @@ F 3 "" H 1600 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1150 1200 3    60   Input ~ 0
-USB_DM
+USB_D_N
 Text GLabel 1250 1200 3    60   Input ~ 0
-USB_DP
+USB_D_P
 $Comp
 L +5V #PWR052
 U 1 1 5C126DDC
@@ -128,25 +128,25 @@ F 3 "" H 2400 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2600 750  2    60   Input ~ 0
-CAM1_DN0
+CAM1_D0_N
 Text GLabel 2600 850  2    60   Input ~ 0
-CAM1_DP0
+CAM1_D0_P
 Text GLabel 2600 1050 2    60   Input ~ 0
-CAM1_DN1
+CAM1_D1_N
 Text GLabel 2600 1150 2    60   Input ~ 0
-CAM1_DP1
+CAM1_D1_P
 Text GLabel 2600 1350 2    60   Input ~ 0
-CAM1_CN
+CAM1_C_N
 Text GLabel 2600 1450 2    60   Input ~ 0
-CAM1_CP
+CAM1_C_P
 Text GLabel 2600 1650 2    60   Input ~ 0
-CAM1_DN2
+CAM1_D2_N
 Text GLabel 2600 1750 2    60   Input ~ 0
-CAM1_DP2
+CAM1_D2_P
 Text GLabel 2600 1950 2    60   Input ~ 0
-CAM1_DN3
+CAM1_D3_N
 Text GLabel 2600 2050 2    60   Input ~ 0
-CAM1_DP3
+CAM1_D3_P
 Text GLabel 2600 2250 2    60   Input ~ 0
 CAM1_IO0
 Text GLabel 2600 2350 2    60   Input ~ 0

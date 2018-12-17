@@ -145,9 +145,9 @@ F 6 "_" H 16275 -1050 10  0001 C CNN "Optn"
 	-1   0    0    -1  
 $EndComp
 Text GLabel 9350 3200 0    60   Input ~ 0
-USB_DP
+USB_D_P
 Text GLabel 9350 3350 0    60   Input ~ 0
-USB_DM
+USB_D_N
 Text GLabel 6450 1050 2    60   Input ~ 0
 HDMI_CLK_N
 Text GLabel 6450 1200 2    60   Input ~ 0
@@ -270,25 +270,25 @@ CAM1_IO1
 Text GLabel 4850 5450 3    60   Input ~ 0
 CAM1_IO0
 Text GLabel 9400 5000 0    60   Input ~ 0
-CAM1_CP
+CAM1_C_P
 Text GLabel 9400 5150 0    60   Input ~ 0
-CAM1_CN
+CAM1_C_N
 Text GLabel 9400 5300 0    60   Input ~ 0
-CAM1_DP0
+CAM1_D0_P
 Text GLabel 9400 5450 0    60   Input ~ 0
-CAM1_DN0
+CAM1_D0_N
 Text GLabel 9400 5600 0    60   Input ~ 0
-CAM1_DP1
+CAM1_D1_P
 Text GLabel 9400 5750 0    60   Input ~ 0
-CAM1_DN1
+CAM1_D1_N
 Text GLabel 9400 5900 0    60   Input ~ 0
-CAM1_DP2
+CAM1_D2_P
 Text GLabel 9400 6050 0    60   Input ~ 0
-CAM1_DN2
+CAM1_D2_N
 Text GLabel 9400 6200 0    60   Input ~ 0
-CAM1_DP3
+CAM1_D3_P
 Text GLabel 9400 6350 0    60   Input ~ 0
-CAM1_DN3
+CAM1_D3_N
 $Sheet
 S 6050 6500 600  500 
 U 5C119B70
