@@ -1,0 +1,41 @@
+Title,
+Revision,
+Date,
+Generated,Mon 17 Dec 2018 01:29:03 AM EET
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,42
+Total Unique Parts,20
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,Category,DK_Datasheet_Link,DK_Detail_Page,Description,Digi-Key_PN,Family,MPN,Manf,Manf#,Manufacturer,Optn,Status,
+C1 C2 C3 C4 C5 C6 C7 C8 C17 ,9,100nF,Capacitors_SMD:C_0402,, , , , , , , , , , , , 
+C9 ,1,1uF,Capacitors_SMD:C_0805,, , , , , , , , , , , , 
+C10 C11 C12 C13 C14 C15 C16 ,7,10uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow,, , , , , , , , , , , , 
+D1 ,1,LED,LEDs:LED_0805,, , , , , , , , , , , , 
+D2 D3 ,2,BAT54,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
+D4 D5 D6 D7 ,4,BAV99,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
+F1 ,1,2.5A,Fuse_Holders_and_Fuses:Fuse_CB61F,, , , , , , , , , , , , 
+J1 ,1,2001-1-2-21-00-BK,HDMI_MOLEX:HDMI_MOLEX_471510001,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,Connectors  Interconnects,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013,CONN RCPT MINI HDMI 19POS SMD RA,1175-1704-1-ND,USB  DVI  HDMI Connectors,2001-1-2-21-00-BK, , ,CNC Tech, ,Active
+MD1 ,1,Board_RPi_CM3_200pConnector_multipart,footprints:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided,_, , , , , , , ,_,_, ,_, 
+P1 ,1,POWER,Connectors:USB_Micro-B,, , , , , , , , , , , , 
+P2 ,1,HOST,Connectors:USB_A,, , , , , , , , , , , , 
+P3 ,1,CAM1,ffc_conn:FPC_22,, , , , , , , , , , , , 
+Q1 Q3 ,2,2N7002P.215,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
+Q2 ,1,DMP3056L-7,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
+R1 R6 ,2,100K,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
+R2 R3 ,2,1K,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
+R4 R5 ,2,1.8K,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
+U1 ,1,REG1117-3.3,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , , , , , , , , , , , 
+U2 ,1,REG1117A-2.5,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , , , , , , , , , , , 
+U3 ,1,REG1117A-1.8,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , , , , , , , , , , , 
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Mon 17 Dec 2018 01:29:03 AM EET
