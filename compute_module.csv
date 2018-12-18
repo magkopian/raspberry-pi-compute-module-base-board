@@ -1,7 +1,7 @@
 Title,
 Revision,
 Date,
-Generated,Mon 17 Dec 2018 01:29:03 AM EET
+Generated,Tue 18 Dec 2018 01:47:01 AM EET
 Company,
 Comment 1,
 Comment 2,
@@ -19,7 +19,7 @@ C10 C11 C12 C13 C14 C15 C16 ,7,10uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_E
 D1 ,1,LED,LEDs:LED_0805,, , , , , , , , , , , , 
 D2 D3 ,2,BAT54,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
 D4 D5 D6 D7 ,4,BAV99,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
-F1 ,1,2.5A,Fuse_Holders_and_Fuses:Fuse_CB61F,, , , , , , , , , , , , 
+F1 ,1,2A 6V,Polyfuse_Bourns_MF-PSML:Polyfuse_0805,, , , , , , , , , , , , 
 J1 ,1,2001-1-2-21-00-BK,HDMI_MOLEX:HDMI_MOLEX_471510001,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,Connectors  Interconnects,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013,CONN RCPT MINI HDMI 19POS SMD RA,1175-1704-1-ND,USB  DVI  HDMI Connectors,2001-1-2-21-00-BK, , ,CNC Tech, ,Active
 MD1 ,1,Board_RPi_CM3_200pConnector_multipart,footprints:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided,_, , , , , , , ,_,_, ,_, 
 P1 ,1,POWER,Connectors:USB_Micro-B,, , , , , , , , , , , , 
@@ -38,4 +38,4 @@ U3 ,1,REG1117A-1.8,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , , , , , , , , , , ,
 
 
 BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated Mon 17 Dec 2018 01:29:03 AM EET
+Generated Tue 18 Dec 2018 01:47:01 AM EET

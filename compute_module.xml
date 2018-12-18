@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/manolis/kicad/compute_module/compute_module.sch</source>
-    <date>Mon 17 Dec 2018 01:29:03 AM EET</date>
+    <date>Tue 18 Dec 2018 01:47:03 AM EET</date>
     <tool>Eeschema 4.0.5+dfsg1-4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -219,13 +219,6 @@
       <sheetpath names="/Power/" tstamps="/5C119B70/"/>
       <tstamp>5C121D56</tstamp>
     </comp>
-    <comp ref="F1">
-      <value>2.5A</value>
-      <footprint>Fuse_Holders_and_Fuses:Fuse_CB61F</footprint>
-      <libsource lib="device" part="Fuse"/>
-      <sheetpath names="/Power/" tstamps="/5C119B70/"/>
-      <tstamp>5C1225FC</tstamp>
-    </comp>
     <comp ref="Q2">
       <value>DMP3056L-7</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
@@ -239,6 +232,13 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/5C119B70/"/>
       <tstamp>5C14646A</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>2A 6V</value>
+      <footprint>Polyfuse_Bourns_MF-PSML:Polyfuse_0805</footprint>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/Power/" tstamps="/5C119B70/"/>
+      <tstamp>5C16EB7F</tstamp>
     </comp>
     <comp ref="C16">
       <value>10uF</value>
@@ -720,20 +720,6 @@
         <pin num="3" name="common" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Fuse">
-      <description>Fuse, generic</description>
-      <footprints>
-        <fp>*Fuse*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Fuse</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="LED">
       <description>LED generic</description>
       <footprints>
@@ -746,6 +732,21 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="Q_NMOS_GSD">
@@ -875,20 +876,20 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="REG1117">
-      <uri>/home/manolis/kicad/compute_module/libs/components/REG1117.lib</uri>
-    </library>
-    <library logical="KiCADinfo_RPi-modules">
-      <uri>/home/manolis/kicad/compute_module/libs/components/KiCADinfo_RPi-modules.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="dk_USB-DVI-HDMI-Connectors">
       <uri>/home/manolis/kicad/compute_module/libs/components/dk_USB-DVI-HDMI-Connectors.lib</uri>
+    </library>
+    <library logical="KiCADinfo_RPi-modules">
+      <uri>/home/manolis/kicad/compute_module/libs/components/KiCADinfo_RPi-modules.lib</uri>
+    </library>
+    <library logical="REG1117">
+      <uri>/home/manolis/kicad/compute_module/libs/components/REG1117.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -901,81 +902,81 @@
       <node ref="MD1" pin="125"/>
     </net>
     <net code="3" name="HDMI_D2_N">
-      <node ref="MD1" pin="129"/>
       <node ref="J1" pin="3"/>
+      <node ref="MD1" pin="129"/>
     </net>
     <net code="4" name="HDMI_D2_P">
       <node ref="MD1" pin="131"/>
       <node ref="J1" pin="1"/>
     </net>
     <net code="5" name="HDMI_CEC">
-      <node ref="MD1" pin="171"/>
       <node ref="D4" pin="3"/>
       <node ref="J1" pin="13"/>
+      <node ref="MD1" pin="171"/>
     </net>
     <net code="6" name="HDMI_SDA">
-      <node ref="J1" pin="16"/>
-      <node ref="D6" pin="3"/>
-      <node ref="R5" pin="2"/>
       <node ref="MD1" pin="173"/>
+      <node ref="J1" pin="16"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D6" pin="3"/>
     </net>
     <net code="7" name="HDMI_SCL">
-      <node ref="R4" pin="2"/>
       <node ref="MD1" pin="175"/>
-      <node ref="D5" pin="3"/>
       <node ref="J1" pin="15"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D5" pin="3"/>
     </net>
     <net code="8" name="HDMI_D0_P">
-      <node ref="J1" pin="7"/>
       <node ref="MD1" pin="119"/>
+      <node ref="J1" pin="7"/>
     </net>
     <net code="9" name="+5V">
-      <node ref="U1" pin="3"/>
-      <node ref="Q2" pin="2"/>
       <node ref="U2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="MD1" pin="197"/>
       <node ref="U3" pin="3"/>
       <node ref="C7" pin="1"/>
       <node ref="C10" pin="1"/>
-      <node ref="MD1" pin="197"/>
       <node ref="C14" pin="1"/>
-      <node ref="D2" pin="1"/>
       <node ref="D3" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="1"/>
       <node ref="MD1" pin="199"/>
+      <node ref="C9" pin="1"/>
       <node ref="MD1" pin="198"/>
       <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="MD1" pin="200"/>
       <node ref="C8" pin="1"/>
       <node ref="C12" pin="1"/>
-      <node ref="MD1" pin="200"/>
     </net>
-    <net code="10" name="USB_DP">
-      <node ref="MD1" pin="165"/>
+    <net code="10" name="USB_D_P">
       <node ref="P2" pin="3"/>
+      <node ref="MD1" pin="165"/>
     </net>
-    <net code="11" name="USB_DM">
-      <node ref="MD1" pin="167"/>
+    <net code="11" name="USB_D_N">
       <node ref="P2" pin="2"/>
+      <node ref="MD1" pin="167"/>
     </net>
     <net code="12" name="USB_OTGID">
-      <node ref="MD1" pin="168"/>
       <node ref="R3" pin="1"/>
+      <node ref="MD1" pin="168"/>
     </net>
     <net code="13" name="HDMI_HPD_N_1V8">
-      <node ref="MD1" pin="88"/>
       <node ref="R6" pin="1"/>
+      <node ref="MD1" pin="88"/>
     </net>
     <net code="14" name="HDMI_CLK_N">
-      <node ref="MD1" pin="111"/>
       <node ref="J1" pin="12"/>
+      <node ref="MD1" pin="111"/>
     </net>
     <net code="15" name="HDMI_CLK_P">
       <node ref="MD1" pin="113"/>
       <node ref="J1" pin="10"/>
     </net>
     <net code="16" name="HDMI_D0_N">
-      <node ref="MD1" pin="117"/>
       <node ref="J1" pin="9"/>
+      <node ref="MD1" pin="117"/>
     </net>
     <net code="17" name="Net-(MD1-Pad29)">
       <node ref="MD1" pin="29"/>
@@ -1036,26 +1037,26 @@
     </net>
     <net code="36" name="+3V3">
       <node ref="C6" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="MD1" pin="194"/>
       <node ref="MD1" pin="39"/>
-      <node ref="MD1" pin="192"/>
-      <node ref="MD1" pin="191"/>
-      <node ref="P3" pin="22"/>
       <node ref="MD1" pin="193"/>
       <node ref="MD1" pin="42"/>
       <node ref="C11" pin="1"/>
+      <node ref="P3" pin="22"/>
       <node ref="MD1" pin="41"/>
+      <node ref="MD1" pin="194"/>
+      <node ref="C5" pin="1"/>
       <node ref="MD1" pin="40"/>
-      <node ref="U1" pin="2"/>
+      <node ref="MD1" pin="191"/>
+      <node ref="MD1" pin="192"/>
       <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
     </net>
     <net code="37" name="Net-(MD1-Pad2)">
       <node ref="MD1" pin="2"/>
     </net>
     <net code="38" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
       <node ref="R2" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="39" name="Net-(MD1-Pad63)">
       <node ref="MD1" pin="63"/>
@@ -1065,23 +1066,24 @@
       <node ref="D1" pin="1"/>
     </net>
     <net code="41" name="GND">
-      <node ref="MD1" pin="151"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="MD1" pin="103"/>
-      <node ref="MD1" pin="122"/>
-      <node ref="MD1" pin="152"/>
-      <node ref="MD1" pin="182"/>
-      <node ref="MD1" pin="163"/>
-      <node ref="MD1" pin="133"/>
-      <node ref="Q2" pin="1"/>
       <node ref="C9" pin="2"/>
+      <node ref="MD1" pin="151"/>
+      <node ref="C3" pin="2"/>
+      <node ref="MD1" pin="163"/>
+      <node ref="C4" pin="2"/>
+      <node ref="MD1" pin="133"/>
+      <node ref="MD1" pin="103"/>
+      <node ref="MD1" pin="182"/>
+      <node ref="MD1" pin="152"/>
+      <node ref="MD1" pin="122"/>
+      <node ref="Q2" pin="1"/>
       <node ref="P3" pin="4"/>
       <node ref="J1" pin="2"/>
       <node ref="P2" pin="5"/>
       <node ref="P2" pin="4"/>
       <node ref="P3" pin="16"/>
       <node ref="P3" pin="19"/>
+      <node ref="D7" pin="1"/>
       <node ref="D6" pin="1"/>
       <node ref="D5" pin="1"/>
       <node ref="C17" pin="2"/>
@@ -1091,7 +1093,6 @@
       <node ref="J1" pin="11"/>
       <node ref="J1" pin="8"/>
       <node ref="D4" pin="1"/>
-      <node ref="D7" pin="1"/>
       <node ref="P3" pin="13"/>
       <node ref="P3" pin="10"/>
       <node ref="P3" pin="7"/>
@@ -1105,10 +1106,10 @@
       <node ref="U3" pin="1"/>
       <node ref="C10" pin="2"/>
       <node ref="C12" pin="2"/>
-      <node ref="C15" pin="2"/>
       <node ref="C11" pin="2"/>
       <node ref="C14" pin="2"/>
       <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
       <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="C5" pin="2"/>
@@ -1140,33 +1141,33 @@
       <node ref="MD1" pin="139"/>
       <node ref="MD1" pin="109"/>
       <node ref="MD1" pin="188"/>
-      <node ref="MD1" pin="116"/>
       <node ref="MD1" pin="145"/>
       <node ref="MD1" pin="115"/>
       <node ref="MD1" pin="164"/>
-      <node ref="MD1" pin="146"/>
+      <node ref="MD1" pin="116"/>
       <node ref="MD1" pin="134"/>
       <node ref="MD1" pin="104"/>
       <node ref="MD1" pin="195"/>
       <node ref="MD1" pin="13"/>
       <node ref="MD1" pin="196"/>
+      <node ref="MD1" pin="146"/>
+      <node ref="MD1" pin="110"/>
+      <node ref="MD1" pin="170"/>
       <node ref="MD1" pin="157"/>
       <node ref="MD1" pin="187"/>
       <node ref="MD1" pin="7"/>
       <node ref="MD1" pin="181"/>
-      <node ref="MD1" pin="1"/>
-      <node ref="MD1" pin="110"/>
       <node ref="MD1" pin="79"/>
-      <node ref="MD1" pin="140"/>
-      <node ref="MD1" pin="170"/>
+      <node ref="MD1" pin="1"/>
       <node ref="MD1" pin="31"/>
-      <node ref="MD1" pin="49"/>
+      <node ref="MD1" pin="140"/>
+      <node ref="MD1" pin="92"/>
+      <node ref="MD1" pin="62"/>
       <node ref="MD1" pin="32"/>
       <node ref="MD1" pin="91"/>
       <node ref="MD1" pin="61"/>
-      <node ref="MD1" pin="62"/>
+      <node ref="MD1" pin="49"/>
       <node ref="MD1" pin="127"/>
-      <node ref="MD1" pin="92"/>
       <node ref="MD1" pin="80"/>
       <node ref="MD1" pin="50"/>
       <node ref="MD1" pin="20"/>
@@ -1292,7 +1293,7 @@
       <node ref="P3" pin="18"/>
       <node ref="MD1" pin="9"/>
     </net>
-    <net code="76" name="CAM1_DN2">
+    <net code="76" name="CAM1_D2_N">
       <node ref="MD1" pin="143"/>
       <node ref="P3" pin="11"/>
     </net>
@@ -1300,39 +1301,39 @@
       <node ref="P3" pin="17"/>
       <node ref="MD1" pin="11"/>
     </net>
-    <net code="78" name="CAM1_CP">
+    <net code="78" name="CAM1_C_P">
       <node ref="MD1" pin="147"/>
       <node ref="P3" pin="9"/>
     </net>
-    <net code="79" name="CAM1_CN">
+    <net code="79" name="CAM1_C_N">
       <node ref="MD1" pin="149"/>
       <node ref="P3" pin="8"/>
     </net>
-    <net code="80" name="CAM1_DP0">
+    <net code="80" name="CAM1_D0_P">
       <node ref="MD1" pin="159"/>
       <node ref="P3" pin="3"/>
     </net>
-    <net code="81" name="CAM1_DN0">
+    <net code="81" name="CAM1_D0_N">
       <node ref="MD1" pin="161"/>
       <node ref="P3" pin="2"/>
     </net>
-    <net code="82" name="CAM1_DP1">
+    <net code="82" name="CAM1_D1_P">
       <node ref="MD1" pin="153"/>
       <node ref="P3" pin="6"/>
     </net>
-    <net code="83" name="CAM1_DN1">
-      <node ref="P3" pin="5"/>
+    <net code="83" name="CAM1_D1_N">
       <node ref="MD1" pin="155"/>
+      <node ref="P3" pin="5"/>
     </net>
-    <net code="84" name="CAM1_DP2">
-      <node ref="MD1" pin="141"/>
+    <net code="84" name="CAM1_D2_P">
       <node ref="P3" pin="12"/>
+      <node ref="MD1" pin="141"/>
     </net>
-    <net code="85" name="CAM1_DP3">
+    <net code="85" name="CAM1_D3_P">
       <node ref="P3" pin="15"/>
       <node ref="MD1" pin="135"/>
     </net>
-    <net code="86" name="CAM1_DN3">
+    <net code="86" name="CAM1_D3_N">
       <node ref="P3" pin="14"/>
       <node ref="MD1" pin="137"/>
     </net>
@@ -1487,26 +1488,26 @@
       <node ref="R6" pin="2"/>
     </net>
     <net code="136" name="Net-(D7-Pad3)">
+      <node ref="D7" pin="3"/>
       <node ref="J1" pin="19"/>
       <node ref="Q3" pin="1"/>
-      <node ref="D7" pin="3"/>
     </net>
     <net code="137" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
     </net>
     <net code="138" name="Net-(C17-Pad1)">
-      <node ref="D4" pin="2"/>
       <node ref="D5" pin="2"/>
       <node ref="J1" pin="18"/>
+      <node ref="D4" pin="2"/>
       <node ref="D3" pin="3"/>
       <node ref="C17" pin="1"/>
       <node ref="D7" pin="2"/>
       <node ref="D6" pin="2"/>
     </net>
     <net code="139" name="Net-(C16-Pad1)">
-      <node ref="C16" pin="1"/>
-      <node ref="P2" pin="1"/>
       <node ref="D2" pin="3"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C16" pin="1"/>
     </net>
     <net code="140" name="Net-(J1-Pad14)">
       <node ref="J1" pin="14"/>
