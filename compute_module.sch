@@ -254,9 +254,9 @@ Text GLabel 3550 5450 3    60   Input ~ 0
 CD1_SDA
 Text GLabel 3700 5450 3    60   Input ~ 0
 CD1_SCL
-Text GLabel 3850 5450 3    60   Input ~ 0
+Text GLabel 4600 3550 1    60   Input ~ 0
 CAM1_IO1
-Text GLabel 4000 5450 3    60   Input ~ 0
+Text GLabel 4750 3550 1    60   Input ~ 0
 CAM1_IO0
 Text GLabel 9400 5000 0    60   Input ~ 0
 CAM1_C_P
@@ -804,10 +804,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 5350 3700 5450
 Wire Wire Line
-	3850 5350 3850 5450
-Wire Wire Line
-	4000 5350 4000 5450
-Wire Wire Line
 	9500 5000 9400 5000
 Wire Wire Line
 	9500 5150 9400 5150
@@ -1002,8 +998,6 @@ NoConn ~ 5350 3650
 NoConn ~ 5200 3650
 NoConn ~ 5050 3650
 NoConn ~ 4900 3650
-NoConn ~ 4750 3650
-NoConn ~ 4600 3650
 NoConn ~ 4150 3650
 NoConn ~ 4000 3650
 NoConn ~ 3850 3650
@@ -1349,4 +1343,10 @@ F 3 "" H 7650 3850 50  0000 C CNN
 	1    7650 3850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3850 5350
+NoConn ~ 4000 5350
+Wire Wire Line
+	4600 3550 4600 3650
+Wire Wire Line
+	4750 3550 4750 3650
 $EndSCHEMATC
