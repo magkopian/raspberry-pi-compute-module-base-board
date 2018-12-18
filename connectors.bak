@@ -425,7 +425,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 2800 8150 2600
 Connection ~ 6550 2850
-Connection ~ 6050 2850
 Connection ~ 5450 2850
 Wire Wire Line
 	5350 1400 5350 700 
@@ -472,8 +471,6 @@ Wire Wire Line
 	7050 2850 7050 3150
 Wire Wire Line
 	6550 2850 6550 3150
-Wire Wire Line
-	6050 2850 6050 3150
 Wire Wire Line
 	6050 3850 6050 3750
 Wire Wire Line
@@ -662,4 +659,17 @@ F 3 "" H 650 950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 650  750 
+$Comp
+L +3V3 #PWR?
+U 1 1 5C194AAE
+P 6050 700
+F 0 "#PWR?" H 6050 550 50  0001 C CNN
+F 1 "+3V3" H 6050 840 50  0000 C CNN
+F 2 "" H 6050 700 50  0000 C CNN
+F 3 "" H 6050 700 50  0000 C CNN
+	1    6050 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 700  6050 3150
 $EndSCHEMATC
