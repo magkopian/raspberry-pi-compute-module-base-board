@@ -872,9 +872,9 @@ Wire Wire Line
 Wire Wire Line
 	4700 2750 4950 2750
 Text GLabel 3950 2150 0    60   Input ~ 0
-CD1_SDA
+GPIO0
 Text GLabel 4950 2150 2    60   Input ~ 0
-CD1_SCL
+GPIO1
 Wire Wire Line
 	3950 2150 4200 2150
 Wire Wire Line
