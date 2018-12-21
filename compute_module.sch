@@ -236,9 +236,9 @@ NoConn ~ 9150 1200
 NoConn ~ 9150 1050
 NoConn ~ 9150 900 
 NoConn ~ 9150 750 
-Text GLabel 3550 5450 3    60   Input ~ 0
+Text GLabel 4300 3550 1    60   Input ~ 0
 CD1_SDA
-Text GLabel 3700 5450 3    60   Input ~ 0
+Text GLabel 4450 3550 1    60   Input ~ 0
 CD1_SCL
 Text GLabel 4600 3550 1    60   Input ~ 0
 CAM1_IO1
@@ -809,18 +809,10 @@ F 3 "" H 5550 6650 50  0000 C CNN
 	1    5550 6650
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 3550 1    60   Input ~ 0
-GPIO28
-Text GLabel 4450 3550 1    60   Input ~ 0
-GPIO29
 Text GLabel 6700 3550 1    60   Input ~ 0
 GPIO44
 Text GLabel 6850 3550 1    60   Input ~ 0
 GPIO45
-Text GLabel 7650 4850 3    60   Input ~ 0
-GPIO28
-Text GLabel 7500 4850 3    60   Input ~ 0
-GPIO29
 Text GLabel 7350 4850 3    60   Input ~ 0
 GPIO44
 Text GLabel 7200 4850 3    60   Input ~ 0
@@ -852,7 +844,7 @@ L R R9
 U 1 1 5C19B975
 P 7500 4350
 F 0 "R9" V 7580 4350 50  0000 C CNN
-F 1 "10K" V 7500 4350 50  0000 C CNN
+F 1 "1.8K" V 7500 4350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7430 4350 50  0001 C CNN
 F 3 "" H 7500 4350 50  0000 C CNN
 	1    7500 4350
@@ -863,7 +855,7 @@ L R R10
 U 1 1 5C19B9D8
 P 7650 4350
 F 0 "R10" V 7730 4350 50  0000 C CNN
-F 1 "10K" V 7650 4350 50  0000 C CNN
+F 1 "1.8K" V 7650 4350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7580 4350 50  0001 C CNN
 F 3 "" H 7650 4350 50  0000 C CNN
 	1    7650 4350
@@ -1427,4 +1419,12 @@ Text GLabel 4000 3550 1    60   Input ~ 0
 GPIO26
 Text GLabel 4150 3550 1    60   Input ~ 0
 GPIO27
+Text GLabel 7500 4850 3    60   Input ~ 0
+CD1_SDA
+Text GLabel 7650 4850 3    60   Input ~ 0
+CD1_SCL
+Text GLabel 3550 5450 3    60   Input ~ 0
+GPIO0
+Text GLabel 3700 5450 3    60   Input ~ 0
+GPIO1
 $EndSCHEMATC
