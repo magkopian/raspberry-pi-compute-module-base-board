@@ -38,14 +38,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
+Title "Raspberry Pi Compute Module Base Board"
 Date ""
-Rev ""
+Rev "A"
 Comp ""
-Comment1 ""
+Comment1 "Copyright (C) 2018  Manolis Agkopian"
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "https://www.gnu.org/licenses/gpl.html"
+Comment4 "License: GPLv3"
 $EndDescr
 $Comp
 L Board_RPi_CM3_200pConnector_multipart MD1
