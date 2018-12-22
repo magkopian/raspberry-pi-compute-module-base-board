@@ -2,4 +2,6 @@
   (lib (name ffc_conn)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/ffc_conn.pretty")(options "")(descr ""))
   (lib (name Polyfuse_Bourns_MF-PSML)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/Polyfuse_Bourns_MF-PSML.pretty")(options "")(descr ""))
   (lib (name jc-128)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/audio_jacks.pretty")(options "")(descr ""))
+  (lib (name Conn_TE-DDR2-SODIMM)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/Conn_TE-DDR2-SODIMM.pretty")(options "")(descr ""))
+  (lib (name HDMI_MOLEX)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/HDMI_MOLEX.pretty")(options "")(descr ""))
 )

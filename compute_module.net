@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/manolis/kicad/compute_module/compute_module.sch)
-    (date "Sat 22 Dec 2018 04:29:20 AM EET")
+    (date "Sat 22 Dec 2018 08:24:53 PM EET")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -39,7 +39,7 @@
   (components
     (comp (ref MD1)
       (value Board_RPi_CM3_200pConnector_multipart)
-      (footprint footprints:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided)
+      (footprint Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided)
       (datasheet _)
       (fields
         (field (name Manf#) _)
@@ -922,18 +922,18 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
-    (library (logical dk_USB-DVI-HDMI-Connectors)
-      (uri /home/manolis/kicad/compute_module/libs/components/dk_USB-DVI-HDMI-Connectors.lib))
-    (library (logical KiCADinfo_RPi-modules)
-      (uri /home/manolis/kicad/compute_module/libs/components/KiCADinfo_RPi-modules.lib))
-    (library (logical jack_trs_5pins)
-      (uri /home/manolis/kicad/compute_module/libs/components/jack_trs_5pins.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical KiCADinfo_RPi-modules)
+      (uri /home/manolis/kicad/compute_module/libs/components/KiCADinfo_RPi-modules.lib))
     (library (logical REG1117)
       (uri /home/manolis/kicad/compute_module/libs/components/REG1117.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+    (library (logical dk_USB-DVI-HDMI-Connectors)
+      (uri /home/manolis/kicad/compute_module/libs/components/dk_USB-DVI-HDMI-Connectors.lib))
+    (library (logical jack_trs_5pins)
+      (uri /home/manolis/kicad/compute_module/libs/components/jack_trs_5pins.lib)))
   (nets
     (net (code 1) (name GPIO26)
       (node (ref P4) (pin 37))
