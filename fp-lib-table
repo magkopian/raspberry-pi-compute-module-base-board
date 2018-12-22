@@ -2,4 +2,5 @@
   (lib (name digikey-footprints)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name ffc_conn)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/ffc_conn.pretty")(options "")(descr ""))
   (lib (name Polyfuse_Bourns_MF-PSML)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/Polyfuse_Bourns_MF-PSML.pretty")(options "")(descr ""))
+  (lib (name jc-128)(type KiCad)(uri "$(KIPRJMOD)/libs/footprints/audio_jacks.pretty")(options "")(descr ""))
 )

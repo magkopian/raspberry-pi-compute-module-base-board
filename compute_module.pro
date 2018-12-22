@@ -1,4 +1,4 @@
-update=Thu 13 Dec 2018 08:14:22 PM EET
+update=Sat 22 Dec 2018 04:26:31 AM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=libs/components/KiCADinfo_RPi-modules
 LibName31=libs/components/REG1117
 LibName32=libs/components/dk_USB-DVI-HDMI-Connectors
+LibName33=libs/components/jack_trs_5pins
