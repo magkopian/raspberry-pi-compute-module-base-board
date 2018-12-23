@@ -1,4 +1,3 @@
-
 Raspberry Pi Compute Module Base Board
 ================================
 
@@ -19,3 +18,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
 
+### Compute Module Schematic Symbols and SODIMM Footprint:
+
+This project makes use of the CM schematic symbols and DDR2 SODIMM fooprint designed by [Joan The Spark](https://github.com/JoanTheSpark/KiCAD), which are released under the GNU General Public License Version 3.
