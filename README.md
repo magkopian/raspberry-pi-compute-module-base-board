@@ -1,6 +1,8 @@
 Raspberry Pi Compute Module Base Board
 ================================
 
+![Device](/board.jpg?raw=true)
+
 ## Description:
 
 These are the design files for a circuit board intended to be used as a base for other custom PCB designs that make use of the Raspberry Pi Compute Module.
