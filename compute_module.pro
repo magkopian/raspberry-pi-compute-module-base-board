@@ -1,4 +1,4 @@
-update=Sat 22 Dec 2018 04:26:31 AM EET
+update=Mon 14 Jan 2019 09:50:07 PM EET
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=libs/components/KiCADinfo_RPi-modules
 LibName31=libs/components/REG1117
 LibName32=libs/components/dk_USB-DVI-HDMI-Connectors
 LibName33=libs/components/jack_trs_5pins
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

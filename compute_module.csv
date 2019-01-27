@@ -1,46 +1,46 @@
-Title,
-Revision,
+Title,Raspberry Pi Compute Module Base Board
+Revision,A
 Date,
-Generated,Sat 22 Dec 2018 09:07:50 PM EET
+Generated,Sun 27 Jan 2019 08:12:45 AM EET
 Company,
-Comment 1,
+Comment 1,Copyright (C) 2018  Manolis Agkopian
 Comment 2,
-Comment 3,
-Comment 4,
+Comment 3,https://www.gnu.org/licenses/gpl.html
+Comment 4,License: GPLv3
 Total Parts,61
 Total Unique Parts,25
 
 
 
-Ref,Qty,Value,Footprint,Datasheet,Category,DK_Datasheet_Link,DK_Detail_Page,Description,Digi-Key_PN,Family,MPN,Manf,Manf#,Manufacturer,Optn,Status,
-C1 C2 C3 C4 C5 C6 C7 C8 C9 C12 C13 C17 C18 C19 ,14,100nF,Capacitors_SMD:C_0402,, , , , , , , , , , , , 
-C10 C11 C14 C15 C16 ,5,10uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow,, , , , , , , , , , , , 
-C20 C21 ,2,10uF,Capacitors_SMD:C_0805,, , , , , , , , , , , , 
-C22 C23 ,2,33nF,Capacitors_SMD:C_0402,, , , , , , , , , , , , 
-D1 ,1,GREEN LED,LEDs:LED_0805,, , , , , , , , , , , , 
-D2 D3 ,2,BAT54,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
-D4 D5 D6 D7 D9 D10 ,6,BAV99,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
-D8 ,1,RED LED,LEDs:LED_0805,, , , , , , , , , , , , 
-F1 ,1,2A 6V,Polyfuse_Bourns_MF-PSML:Polyfuse_0805,, , , , , , , , , , , , 
-J1 ,1,2001-1-2-21-00-BK,HDMI_MOLEX:HDMI_MOLEX_471510001,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,Connectors  Interconnects,http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf,/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013,CONN RCPT MINI HDMI 19POS SMD RA,1175-1704-1-ND,USB  DVI  HDMI Connectors,2001-1-2-21-00-BK, , ,CNC Tech, ,Active
-J2 ,1,JC-128,jc-128:JC-128,, , , , , , , , , , , , 
-MD1 ,1,Board_RPi_CM3_200pConnector_multipart,Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided,_, , , , , , , ,_,_, ,_, 
-P1 ,1,POWER,Connectors:USB_Micro-B,, , , , , , , , , , , , 
-P2 ,1,HOST,Connectors:USB_A,, , , , , , , , , , , , 
-P3 ,1,CAM1,ffc_conn:FPC_22,, , , , , , , , , , , , 
-P4 ,1,CONN_02X20,Pin_Headers:Pin_Header_Straight_2x20,, , , , , , , , , , , , 
-Q1 Q3 ,2,2N7002P.215,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
-Q2 ,1,DMP3056L-7,TO_SOT_Packages_SMD:SOT-23,, , , , , , , , , , , , 
-R1 R6 R7 R8 ,4,100K,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
-R2 R3 R11 ,3,1K,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
-R4 R5 R9 R10 ,4,1.8K,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
-R12 R13 ,2,150R,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
-R14 R15 ,2,270R,Resistors_SMD:R_0603_HandSoldering,, , , , , , , , , , , , 
-U1 ,1,REG1117-3.3,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , , , , , , , , , , , 
-U3 ,1,REG1117A-1.8,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,, , , , , , , , , , , , 
+Ref,Qty,Value,Footprint,Datasheet,
+C1 C2 C3 C4 C5 C6 C7 C8 C9 C12 C13 C17 C18 C19 ,14,100nF,Capacitors_SMD:C_0402,
+C10 C11 C14 C15 C16 ,5,10uF,Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow,
+C20 C21 ,2,10uF,Capacitors_SMD:C_0805,
+C22 C23 ,2,33nF,Capacitors_SMD:C_0402,
+D1 ,1,GREEN LED,LEDs:LED_0805,
+D2 D3 ,2,BAT54,TO_SOT_Packages_SMD:SOT-23,https://gr.mouser.com/datasheet/2/427/bat54-58352.pdf
+D4 D5 D6 D7 D9 D10 ,6,BAV99,TO_SOT_Packages_SMD:SOT-23,https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf
+D8 ,1,RED LED,LEDs:LED_0805,
+F1 ,1,2A 6V,Polyfuse_Bourns_MF-PSML:Polyfuse_0805,https://gr.mouser.com/datasheet/2/54/Bourns_MF-PSML-1159396.pdf
+J1 ,1,2001-1-2-21-00-BK,HDMI_MOLEX:HDMI_MOLEX_471510001,https://gr.mouser.com/datasheet/2/276/0471510001_IO_CONNECTORS-170105.pdf
+J2 ,1,JC-128,jc-128:JC-128,https://www.tme.eu/en/Document/b2d3db3ed78affad83450dce59a7cdd9/jc-128.pdf
+MD1 ,1,Board_RPi_CM3_200pConnector_multipart,Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided,https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf
+P1 ,1,POWER,Connectors:USB_Micro-B,https://www.tme.eu/en/Document/b7989e722b05f5084c507fb3ad8f02cb/MX-105017-0001.pdf
+P2 ,1,HOST,Connectors:USB_A,https://gr.mouser.com/datasheet/2/643/bel_SS-52100-001-1216592.pdf
+P3 ,1,CAM1,ffc_conn:FPC_22,https://gr.mouser.com/datasheet/2/445/687122183722-1114273.pdf
+P4 ,1,CONN_02X20,Pin_Headers:Pin_Header_Straight_2x20,
+Q1 Q3 ,2,2N7002P.215,TO_SOT_Packages_SMD:SOT-23,https://www.tme.eu/en/Document/fda24b70d66290936384ff869f03745e/2N7002P.pdf
+Q2 ,1,DMP3056L-7,TO_SOT_Packages_SMD:SOT-23,https://www.tme.eu/en/Document/250d260377fe1e01ee709e3eafa0c268/DMP3056L.pdf
+R1 R6 R7 R8 ,4,100K,Resistors_SMD:R_0603_HandSoldering,
+R2 R3 R11 ,3,1K,Resistors_SMD:R_0603_HandSoldering,
+R4 R5 R9 R10 ,4,1.8K,Resistors_SMD:R_0603_HandSoldering,
+R12 R13 ,2,150R,Resistors_SMD:R_0603_HandSoldering,
+R14 R15 ,2,270R,Resistors_SMD:R_0603_HandSoldering,
+U1 ,1,REG1117-3.3,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/reg1117.pdf
+U3 ,1,REG1117A-1.8,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/reg1117a.pdf
 
 
 
 
 BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated Sat 22 Dec 2018 09:07:50 PM EET
+Generated Sun 27 Jan 2019 08:12:45 AM EET

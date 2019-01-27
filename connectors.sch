@@ -113,7 +113,7 @@ P 2100 1700
 F 0 "P3" H 2100 2850 50  0000 C CNN
 F 1 "CAM1" V 2200 1700 50  0000 C CNN
 F 2 "ffc_conn:FPC_22" H 2100 1700 50  0001 C CNN
-F 3 "" H 2100 1700 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/445/687122183722-1114273.pdf" H 2100 1700 50  0001 C CNN
 	1    2100 1700
 	-1   0    0    -1  
 $EndComp
@@ -174,7 +174,7 @@ P 1250 800
 F 0 "P2" H 1450 600 50  0000 C CNN
 F 1 "HOST" H 1200 1000 50  0000 C CNN
 F 2 "Connectors:USB_A" V 1200 700 50  0001 C CNN
-F 3 "" V 1200 700 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/643/bel_SS-52100-001-1216592.pdf" V 1200 700 50  0001 C CNN
 	1    1250 800 
 	1    0    0    -1  
 $EndComp
@@ -185,16 +185,7 @@ P 6250 2050
 F 0 "J1" H 5935 3545 60  0000 C CNN
 F 1 "2001-1-2-21-00-BK" V 5860 1095 60  0000 C CNN
 F 2 "HDMI_MOLEX:HDMI_MOLEX_471510001" H 6450 2250 60  0001 L CNN
-F 3 "http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf" H 6450 2350 60  0001 L CNN
-F 4 "1175-1704-1-ND" H 6450 2450 60  0001 L CNN "Digi-Key_PN"
-F 5 "2001-1-2-21-00-BK" H 6450 2550 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 6450 2650 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 6450 2750 60  0001 L CNN "Family"
-F 8 "http://cnctech.us/pdfs/2001-1-2-21-00-BK.pdf" H 6450 2850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cnc-tech/2001-1-2-21-00-BK/1175-1704-1-ND/4867013" H 6450 2950 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT MINI HDMI 19POS SMD RA" H 6450 3050 60  0001 L CNN "Description"
-F 11 "CNC Tech" H 6450 3150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6450 3250 60  0001 L CNN "Status"
+F 3 "https://gr.mouser.com/datasheet/2/276/0471510001_IO_CONNECTORS-170105.pdf" H 6450 2350 60  0001 L CNN
 	1    6250 2050
 	1    0    0    -1  
 $EndComp
@@ -205,7 +196,7 @@ P 8400 3450
 F 0 "D4" H 8450 3350 50  0000 C CNN
 F 1 "BAV99" H 8400 3550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8400 3450 50  0001 C CNN
-F 3 "" H 8400 3450 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf" H 8400 3450 50  0001 C CNN
 	1    8400 3450
 	0    1    -1   0   
 $EndComp
@@ -260,7 +251,7 @@ P 8900 3450
 F 0 "D5" H 8950 3350 50  0000 C CNN
 F 1 "BAV99" H 8900 3550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8900 3450 50  0001 C CNN
-F 3 "" H 8900 3450 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf" H 8900 3450 50  0001 C CNN
 	1    8900 3450
 	0    1    -1   0   
 $EndComp
@@ -271,7 +262,7 @@ P 9400 3450
 F 0 "D6" H 9450 3350 50  0000 C CNN
 F 1 "BAV99" H 9400 3550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 9400 3450 50  0001 C CNN
-F 3 "" H 9400 3450 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf" H 9400 3450 50  0001 C CNN
 	1    9400 3450
 	0    1    -1   0   
 $EndComp
@@ -393,7 +384,7 @@ P 10400 3450
 F 0 "Q3" H 10600 3500 50  0000 L CNN
 F 1 "2N7002P.215" H 10600 3400 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 10600 3550 50  0001 C CNN
-F 3 "" H 10400 3450 50  0000 C CNN
+F 3 "https://www.tme.eu/en/Document/fda24b70d66290936384ff869f03745e/2N7002P.pdf" H 10400 3450 50  0001 C CNN
 	1    10400 3450
 	1    0    0    -1  
 $EndComp
@@ -428,7 +419,7 @@ P 9900 3450
 F 0 "D7" H 9950 3350 50  0000 C CNN
 F 1 "BAV99" H 9900 3550 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 9900 3450 50  0001 C CNN
-F 3 "" H 9900 3450 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf" H 9900 3450 50  0001 C CNN
 	1    9900 3450
 	0    1    -1   0   
 $EndComp
@@ -461,7 +452,7 @@ P 7800 1600
 F 0 "D3" H 7800 1700 50  0000 C CNN
 F 1 "BAT54" H 7800 1500 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7800 1600 50  0001 C CNN
-F 3 "" H 7800 1600 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bat54-58352.pdf" H 7800 1600 50  0001 C CNN
 	1    7800 1600
 	0    -1   -1   0   
 $EndComp
@@ -473,7 +464,7 @@ P 650 950
 F 0 "D2" H 650 1050 50  0000 C CNN
 F 1 "BAT54" H 650 850 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 650 950 50  0001 C CNN
-F 3 "" H 650 950 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bat54-58352.pdf" H 650 950 50  0001 C CNN
 	1    650  950 
 	0    -1   -1   0   
 $EndComp
@@ -754,7 +745,7 @@ P 1900 4900
 F 0 "D9" H 2000 4800 50  0000 C CNN
 F 1 "BAV99" H 1900 5000 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 1900 4900 50  0001 C CNN
-F 3 "" H 1900 4900 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf" H 1900 4900 50  0001 C CNN
 	1    1900 4900
 	0    1    -1   0   
 $EndComp
@@ -765,7 +756,7 @@ P 2400 4900
 F 0 "D10" H 2500 4800 50  0000 C CNN
 F 1 "BAV99" H 2400 5000 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2400 4900 50  0001 C CNN
-F 3 "" H 2400 4900 50  0000 C CNN
+F 3 "https://gr.mouser.com/datasheet/2/427/bav99g-266615.pdf" H 2400 4900 50  0001 C CNN
 	1    2400 4900
 	0    1    -1   0   
 $EndComp
@@ -1152,7 +1143,7 @@ P 1000 4200
 F 0 "J2" H 950 4500 50  0000 C CNN
 F 1 "JC-128" H 950 3900 50  0000 C CNN
 F 2 "jc-128:JC-128" H 1100 4000 50  0001 C CNN
-F 3 "" H 1100 4000 50  0000 C CNN
+F 3 "https://www.tme.eu/en/Document/b2d3db3ed78affad83450dce59a7cdd9/jc-128.pdf" H 1100 4000 50  0001 C CNN
 	1    1000 4200
 	1    0    0    -1  
 $EndComp

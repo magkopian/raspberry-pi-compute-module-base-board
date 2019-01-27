@@ -54,10 +54,7 @@ P 2300 4150
 F 0 "MD1" H 1700 750 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 2300 7600 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 8275 1300 10  0001 C CNN
-F 3 "_" H 8275 1300 10  0001 C CNN
-F 4 "_" H 8275 1300 10  0001 C CNN "Manf#"
-F 5 "_" H 8275 1300 10  0001 C CNN "Manf"
-F 6 "_" H 8275 1300 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 8275 1300 10  0001 C CNN
 	1    2300 4150
 	1    0    0    -1  
 $EndComp
@@ -68,10 +65,7 @@ P 10300 3350
 F 0 "MD1" H 10300 3350 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 10300 3650 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 16275 500 10  0001 C CNN
-F 3 "_" H 16275 500 10  0001 C CNN
-F 4 "_" H 16275 500 10  0001 C CNN "Manf#"
-F 5 "_" H 16275 500 10  0001 C CNN "Manf"
-F 6 "_" H 16275 500 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 16275 500 10  0001 C CNN
 	2    10300 3350
 	-1   0    0    -1  
 $EndComp
@@ -82,10 +76,7 @@ P 10350 5150
 F 0 "MD1" H 10350 5150 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 10350 6500 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 16325 2300 10  0001 C CNN
-F 3 "_" H 16325 2300 10  0001 C CNN
-F 4 "_" H 16325 2300 10  0001 C CNN "Manf#"
-F 5 "_" H 16325 2300 10  0001 C CNN "Manf"
-F 6 "_" H 16325 2300 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 16325 2300 10  0001 C CNN
 	3    10350 5150
 	-1   0    0    -1  
 $EndComp
@@ -96,10 +87,7 @@ P 5500 1800
 F 0 "MD1" H 5500 1800 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 5550 3000 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 11475 -1050 10  0001 C CNN
-F 3 "_" H 11475 -1050 10  0001 C CNN
-F 4 "_" H 11475 -1050 10  0001 C CNN "Manf#"
-F 5 "_" H 11475 -1050 10  0001 C CNN "Manf"
-F 6 "_" H 11475 -1050 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 11475 -1050 10  0001 C CNN
 	4    5500 1800
 	1    0    0    -1  
 $EndComp
@@ -110,10 +98,7 @@ P 8300 1500
 F 0 "MD1" H 8300 1550 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 8300 2400 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 14275 -1350 10  0001 C CNN
-F 3 "_" H 14275 -1350 10  0001 C CNN
-F 4 "_" H 14275 -1350 10  0001 C CNN "Manf#"
-F 5 "_" H 14275 -1350 10  0001 C CNN "Manf"
-F 6 "_" H 14275 -1350 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 14275 -1350 10  0001 C CNN
 	5    8300 1500
 	1    0    0    -1  
 $EndComp
@@ -124,10 +109,7 @@ P 10300 1800
 F 0 "MD1" H 10300 1800 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 10350 3000 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 16275 -1050 10  0001 C CNN
-F 3 "_" H 16275 -1050 10  0001 C CNN
-F 4 "_" H 16275 -1050 10  0001 C CNN "Manf#"
-F 5 "_" H 16275 -1050 10  0001 C CNN "Manf"
-F 6 "_" H 16275 -1050 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 16275 -1050 10  0001 C CNN
 	7    10300 1800
 	-1   0    0    -1  
 $EndComp
@@ -590,7 +572,7 @@ P 4000 2050
 F 0 "Q1" H 3900 2200 50  0000 L CNN
 F 1 "2N7002P.215" V 4250 1800 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 2150 50  0001 C CNN
-F 3 "" H 4000 2050 50  0000 C CNN
+F 3 "https://www.tme.eu/en/Document/fda24b70d66290936384ff869f03745e/2N7002P.pdf" H 4000 2050 50  0001 C CNN
 	1    4000 2050
 	1    0    0    -1  
 $EndComp
@@ -890,10 +872,7 @@ P 5200 4500
 F 0 "MD1" H 5200 4450 50  0000 C CNN
 F 1 "Board_RPi_CM3_200pConnector_multipart" H 5250 6300 50  0000 C CNN
 F 2 "Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided" H 11175 1650 10  0001 C CNN
-F 3 "_" H 11175 1650 10  0001 C CNN
-F 4 "_" H 11175 1650 10  0001 C CNN "Manf#"
-F 5 "_" H 11175 1650 10  0001 C CNN "Manf"
-F 6 "_" H 11175 1650 10  0001 C CNN "Optn"
+F 3 "https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf" H 11175 1650 10  0001 C CNN
 	6    5200 4500
 	0    -1   -1   0   
 $EndComp
