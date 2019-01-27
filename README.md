@@ -9,6 +9,8 @@ These are the design files for a circuit board intended to be used as a base for
 
 If you want to design a custom PCB based on the Raspberry Pi Compute Module but you have never done it before, this project can serve as a starting point. The board is designed on KiCAD which is an open source and cross-platform EDA software, in order to allow as many people as possible to take advantage of it.
 
+More information about the project can be found on [Instructables](https://www.instructables.com/id/Design-Your-Own-Raspberry-Pi-Compute-Module-PCB/).
+
 ## License:
 
 Raspberry Pi Compute Module Base Board
