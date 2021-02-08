@@ -220,13 +220,13 @@ NoConn ~ 9150 1050
 NoConn ~ 9150 900 
 NoConn ~ 9150 750 
 Text GLabel 4300 3550 1    60   Input ~ 0
-CD1_SDA
+CD0_SDA
 Text GLabel 4450 3550 1    60   Input ~ 0
-CD1_SCL
+CD0_SCL
 Text GLabel 4600 3550 1    60   Input ~ 0
-CAM1_IO1
+CAM0_IO1
 Text GLabel 4750 3550 1    60   Input ~ 0
-CAM1_IO0
+CAM0_IO0
 Text GLabel 9400 5000 0    60   Input ~ 0
 CAM1_C_P
 Text GLabel 9400 5150 0    60   Input ~ 0
@@ -587,12 +587,6 @@ F 3 "" H 4100 2400 50  0000 C CNN
 	1    4100 2400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9500 3950
-NoConn ~ 9500 4100
-NoConn ~ 9500 4250
-NoConn ~ 9500 4400
-NoConn ~ 9500 4550
-NoConn ~ 9500 4700
 NoConn ~ 6550 3650
 NoConn ~ 6400 3650
 NoConn ~ 6250 3650
@@ -909,7 +903,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 7450 3150 7450
 Wire Wire Line
-	3250 850  3250 7600
+	3250 850  3250 1000
 Wire Wire Line
 	3150 7300 3250 7300
 Connection ~ 3250 7450
@@ -1045,7 +1039,7 @@ Connection ~ 3250 1000
 Wire Wire Line
 	1350 7450 1450 7450
 Wire Wire Line
-	1350 5200 1350 7600
+	1350 5200 1350 5350
 Wire Wire Line
 	1450 7300 1350 7300
 Connection ~ 1350 7450
@@ -1094,7 +1088,7 @@ Connection ~ 1350 5350
 Wire Wire Line
 	1450 1600 1250 1600
 Wire Wire Line
-	1250 850  1250 2050
+	1250 850  1250 1600
 Wire Wire Line
 	1250 1750 1450 1750
 Connection ~ 1250 1600
@@ -1107,7 +1101,7 @@ Connection ~ 1250 1900
 Wire Wire Line
 	1450 2350 1150 2350
 Wire Wire Line
-	1150 850  1150 4750
+	1150 850  1150 2350
 Wire Wire Line
 	1150 2500 1450 2500
 Connection ~ 1150 2350
@@ -1120,7 +1114,7 @@ Connection ~ 1150 2650
 Wire Wire Line
 	1450 3100 1050 3100
 Wire Wire Line
-	1050 850  1050 3550
+	1050 850  1050 3100
 Wire Wire Line
 	1050 3250 1450 3250
 Connection ~ 1050 3100
@@ -1133,7 +1127,7 @@ Connection ~ 1050 3400
 Wire Wire Line
 	1450 3850 950  3850
 Wire Wire Line
-	950  850  950  4000
+	950  850  950  3850
 Wire Wire Line
 	950  4000 1450 4000
 Connection ~ 950  3850
@@ -1220,7 +1214,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2400 4100 2250
 Wire Wire Line
-	3450 2050 3800 2050
+	3450 2050 3650 2050
 Wire Wire Line
 	3450 2050 3450 1650
 Wire Wire Line
@@ -1325,9 +1319,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 3650 4150 3550
 Text GLabel 3850 5450 3    60   Input ~ 0
-GPIO2
+CAM1_IO1
 Text GLabel 4000 5450 3    60   Input ~ 0
-GPIO3
+CAM1_IO0
 Text GLabel 4150 5450 3    60   Input ~ 0
 GPIO4
 Text GLabel 4300 5450 3    60   Input ~ 0
@@ -1381,9 +1375,9 @@ CD1_SDA
 Text GLabel 7650 4850 3    60   Input ~ 0
 CD1_SCL
 Text GLabel 3550 5450 3    60   Input ~ 0
-GPIO0
+CD1_SDA
 Text GLabel 3700 5450 3    60   Input ~ 0
-GPIO1
+CD1_SCL
 $Comp
 L LED D8
 U 1 1 5C1D8A4D
@@ -1460,4 +1454,232 @@ Text GLabel 6100 3550 1    60   Input ~ 0
 GPIO40
 Wire Wire Line
 	6100 3550 6100 3650
+Wire Wire Line
+	3250 7450 3250 7600
+Wire Wire Line
+	3250 7300 3250 7450
+Wire Wire Line
+	3250 7150 3250 7300
+Wire Wire Line
+	3250 7000 3250 7150
+Wire Wire Line
+	3250 6850 3250 7000
+Wire Wire Line
+	3250 6700 3250 6850
+Wire Wire Line
+	3250 6550 3250 6700
+Wire Wire Line
+	3250 6400 3250 6550
+Wire Wire Line
+	3250 6250 3250 6400
+Wire Wire Line
+	3250 6100 3250 6250
+Wire Wire Line
+	3250 5950 3250 6100
+Wire Wire Line
+	3250 5800 3250 5950
+Wire Wire Line
+	3250 5650 3250 5800
+Wire Wire Line
+	3250 5500 3250 5650
+Wire Wire Line
+	3250 5350 3250 5500
+Wire Wire Line
+	3250 5200 3250 5350
+Wire Wire Line
+	3250 5050 3250 5200
+Wire Wire Line
+	3250 4900 3250 5050
+Wire Wire Line
+	3250 4750 3250 4900
+Wire Wire Line
+	3250 4600 3250 4750
+Wire Wire Line
+	3250 4450 3250 4600
+Wire Wire Line
+	3250 4300 3250 4450
+Wire Wire Line
+	3250 4150 3250 4300
+Wire Wire Line
+	3250 4000 3250 4150
+Wire Wire Line
+	3250 3850 3250 4000
+Wire Wire Line
+	3250 3700 3250 3850
+Wire Wire Line
+	3250 3550 3250 3700
+Wire Wire Line
+	3250 3400 3250 3550
+Wire Wire Line
+	3250 3250 3250 3400
+Wire Wire Line
+	3250 3100 3250 3250
+Wire Wire Line
+	3250 2950 3250 3100
+Wire Wire Line
+	3250 2800 3250 2950
+Wire Wire Line
+	3250 2650 3250 2800
+Wire Wire Line
+	3250 2500 3250 2650
+Wire Wire Line
+	3250 2350 3250 2500
+Wire Wire Line
+	3250 2200 3250 2350
+Wire Wire Line
+	3250 2050 3250 2200
+Wire Wire Line
+	3250 1900 3250 2050
+Wire Wire Line
+	3250 1750 3250 1900
+Wire Wire Line
+	3250 1600 3250 1750
+Wire Wire Line
+	3250 1450 3250 1600
+Wire Wire Line
+	3250 1300 3250 1450
+Wire Wire Line
+	3250 1150 3250 1300
+Wire Wire Line
+	3250 1000 3250 1150
+Wire Wire Line
+	1350 7450 1350 7600
+Wire Wire Line
+	1350 7300 1350 7450
+Wire Wire Line
+	1350 7150 1350 7300
+Wire Wire Line
+	1350 7000 1350 7150
+Wire Wire Line
+	1350 6850 1350 7000
+Wire Wire Line
+	1350 6700 1350 6850
+Wire Wire Line
+	1350 6550 1350 6700
+Wire Wire Line
+	1350 6400 1350 6550
+Wire Wire Line
+	1350 6250 1350 6400
+Wire Wire Line
+	1350 6100 1350 6250
+Wire Wire Line
+	1350 5950 1350 6100
+Wire Wire Line
+	1350 5800 1350 5950
+Wire Wire Line
+	1350 5650 1350 5800
+Wire Wire Line
+	1350 5500 1350 5650
+Wire Wire Line
+	1350 5350 1350 5500
+Wire Wire Line
+	1250 1600 1250 1750
+Wire Wire Line
+	1250 1750 1250 1900
+Wire Wire Line
+	1250 1900 1250 2050
+Wire Wire Line
+	1150 2350 1150 2500
+Wire Wire Line
+	1150 2500 1150 2650
+Wire Wire Line
+	1150 2650 1150 2800
+Wire Wire Line
+	1050 3100 1050 3250
+Wire Wire Line
+	1050 3250 1050 3400
+Wire Wire Line
+	1050 3400 1050 3550
+Wire Wire Line
+	950  3850 950  4000
+Wire Wire Line
+	1150 2800 1150 4300
+Wire Wire Line
+	1150 4300 1150 4450
+Wire Wire Line
+	1150 4450 1150 4600
+Wire Wire Line
+	1150 4600 1150 4750
+Wire Wire Line
+	3650 2050 3800 2050
+Text GLabel 9400 3950 0    60   Input ~ 0
+CAM0_C_P
+Text GLabel 9400 4100 0    60   Input ~ 0
+CAM0_C_N
+Text GLabel 9400 4250 0    60   Input ~ 0
+CAM0_D0_P
+Text GLabel 9400 4400 0    60   Input ~ 0
+CAM0_D0_N
+Text GLabel 9400 4550 0    60   Input ~ 0
+CAM0_D1_P
+Text GLabel 9400 4700 0    60   Input ~ 0
+CAM0_D1_N
+Wire Wire Line
+	9500 4100 9400 4100
+Wire Wire Line
+	9500 4250 9400 4250
+Wire Wire Line
+	9500 4400 9400 4400
+Wire Wire Line
+	9500 4550 9400 4550
+Wire Wire Line
+	9500 4700 9400 4700
+$Comp
+L R R16
+U 1 1 6066427B
+P 7800 4350
+F 0 "R16" V 7880 4350 50  0000 C CNN
+F 1 "1.8K" V 7800 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 4350 50  0001 C CNN
+F 3 "" H 7800 4350 50  0000 C CNN
+	1    7800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 60664285
+P 7950 4350
+F 0 "R17" V 8030 4350 50  0000 C CNN
+F 1 "1.8K" V 7950 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 4350 50  0001 C CNN
+F 3 "" H 7950 4350 50  0000 C CNN
+	1    7950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR0101
+U 1 1 6066428F
+P 7800 3850
+F 0 "#PWR0101" H 7800 3700 50  0001 C CNN
+F 1 "+3V3" V 7800 4050 50  0000 C CNN
+F 2 "" H 7800 3850 50  0000 C CNN
+F 3 "" H 7800 3850 50  0000 C CNN
+	1    7800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR0102
+U 1 1 60664299
+P 7950 3850
+F 0 "#PWR0102" H 7950 3700 50  0001 C CNN
+F 1 "+3V3" V 7950 4050 50  0000 C CNN
+F 2 "" H 7950 3850 50  0000 C CNN
+F 3 "" H 7950 3850 50  0000 C CNN
+	1    7950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4200 7950 3850
+Wire Wire Line
+	7800 4200 7800 3850
+Wire Wire Line
+	7800 4850 7800 4500
+Wire Wire Line
+	7950 4850 7950 4500
+Text GLabel 7800 4850 3    60   Input ~ 0
+CD0_SDA
+Text GLabel 7950 4850 3    60   Input ~ 0
+CD0_SCL
+Wire Wire Line
+	9500 3950 9400 3950
 $EndSCHEMATC

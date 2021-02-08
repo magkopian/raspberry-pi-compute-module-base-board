@@ -27,13 +27,13 @@ J2 ,1,JC-128,jc-128:JC-128,https://www.tme.eu/en/Document/b2d3db3ed78affad83450d
 MD1 ,1,Board_RPi_CM3_200pConnector_multipart,Conn_TE-DDR2-SODIMM:Conn_TE-DDR2-SODIMM-0.6-200P-doublesided,https://www.tme.eu/en/Document/4b83792fd18cac93e642ba1f5319bf1c/1473005-4.pdf
 P1 ,1,POWER,Connectors:USB_Micro-B,https://www.tme.eu/en/Document/b7989e722b05f5084c507fb3ad8f02cb/MX-105017-0001.pdf
 P2 ,1,HOST,Connectors:USB_A,https://gr.mouser.com/datasheet/2/643/bel_SS-52100-001-1216592.pdf
-P3 ,1,CAM1,ffc_conn:FPC_22,https://gr.mouser.com/datasheet/2/445/687122183722-1114273.pdf
+P3 P5 ,2,CAM,ffc_conn:FPC_22,https://gr.mouser.com/datasheet/2/445/687122183722-1114273.pdf
 P4 ,1,CONN_02X20,Pin_Headers:Pin_Header_Straight_2x20,
 Q1 Q3 ,2,2N7002P.215,TO_SOT_Packages_SMD:SOT-23,https://www.tme.eu/en/Document/fda24b70d66290936384ff869f03745e/2N7002P.pdf
 Q2 ,1,DMP3056L-7,TO_SOT_Packages_SMD:SOT-23,https://www.tme.eu/en/Document/250d260377fe1e01ee709e3eafa0c268/DMP3056L.pdf
 R1 R6 R7 R8 ,4,100K,Resistors_SMD:R_0603_HandSoldering,
 R2 R3 R11 ,3,1K,Resistors_SMD:R_0603_HandSoldering,
-R4 R5 R9 R10 ,4,1.8K,Resistors_SMD:R_0603_HandSoldering,
+R4 R5 R9 R10 R16 R17 ,6,1.8K,Resistors_SMD:R_0603_HandSoldering,
 R12 R13 ,2,150R,Resistors_SMD:R_0603_HandSoldering,
 R14 R15 ,2,270R,Resistors_SMD:R_0603_HandSoldering,
 U1 ,1,REG1117-3.3,TO_SOT_Packages_SMD:SOT-223-3_TabPin2,http://www.ti.com/lit/ds/symlink/reg1117.pdf
