@@ -3623,7 +3623,7 @@
   (gr_text CAM1 (at 142.8 100.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Compute Module Base Board\nRev: A" (at 92.2 53.4) (layer F.SilkS)
+  (gr_text "Compute Module Base Board\nRev: B" (at 92.2 53.4) (layer F.SilkS)
     (effects (font (size 1.4 1.4) (thickness 0.25)) (justify left))
   )
   (gr_line (start 87.6 104.4) (end 87.6 46) (angle 90) (layer Edge.Cuts) (width 0.15))
