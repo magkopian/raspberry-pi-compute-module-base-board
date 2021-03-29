@@ -7,7 +7,7 @@
       (title_block
         (title "Raspberry Pi Compute Module Base Board")
         (company)
-        (rev A)
+        (rev B)
         (date)
         (source compute_module.sch)
         (comment (number 1) (value "Copyright (C) 2018  Manolis Agkopian"))
@@ -18,7 +18,7 @@
       (title_block
         (title "Raspberry Pi Compute Module Base Board")
         (company)
-        (rev A)
+        (rev B)
         (date)
         (source power.sch)
         (comment (number 1) (value "Copyright (C) 2018  Manolis Agkopian"))
@@ -29,7 +29,7 @@
       (title_block
         (title "Raspberry Pi Compute Module Base Board")
         (company)
-        (rev A)
+        (rev B)
         (date)
         (source connectors.sch)
         (comment (number 1) (value "Copyright (C) 2018  Manolis Agkopian"))
