@@ -297,6 +297,14 @@
       <sheetpath names="/Connectors/" tstamps="/5C1259A2/"/>
       <tstamp>5C1275E4</tstamp>
     </comp>
+    <comp ref="P5">
+      <value>CAM0</value>
+      <footprint>ffc_conn:FPC_22</footprint>
+      <datasheet>https://gr.mouser.com/datasheet/2/445/687122183722-1114273.pdf</datasheet>
+      <libsource lib="conn" part="CONN_01X22"/>
+      <sheetpath names="/Connectors/" tstamps="/5C1259A2/"/>
+      <tstamp>5C128E07</tstamp>
+    </comp>
     <comp ref="P3">
       <value>CAM1</value>
       <footprint>ffc_conn:FPC_22</footprint>
@@ -467,6 +475,20 @@
       <libsource lib="device" part="R"/>
       <sheetpath names="/Connectors/" tstamps="/5C1259A2/"/>
       <tstamp>5C1DB4C5</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1.8K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C19B975</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1.8K</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C19B975</tstamp>
     </comp>
     <comp ref="D9">
       <value>BAV99</value>
